@@ -40,3 +40,5 @@ jobs:
           git add result.json
           git commit -m "update gold price" || echo "No changes"
           git push
+env:
+  FORCE_RUN: 1
